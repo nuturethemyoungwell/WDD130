@@ -12,15 +12,14 @@ body {
 }
 
 header {
-    text-align: center;
-    background-color: #4A6FA5;
+     background-color: #4A6FA5;
 }
 main section {
     text-align: center;
 }
 
 nav a {
-    text-align: center;
+    text-align: center left;
     color: white;
     text-decoration: none;
     background-color: #ffe600;
@@ -105,6 +104,10 @@ footer {
 
 .icon {
     width: 80px;
+}
+
+.mountains {
+    text-align: center;
 }
 
   
