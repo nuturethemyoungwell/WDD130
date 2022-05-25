@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tapestry&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+ }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tapestry', cursive; 
+}
+
+h2 {
+    margin: 0;
+}
+
 h4 {
-       color: white;
-       text-align: center;
+    color: white;
+    text-align: center;
 }
 
 h1 {
@@ -18,11 +35,16 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 nav a {
-    text-align: center left;
+    text-align: center center;
     color: white;
     text-decoration: none;
     background-color: #ffe600;
+    padding: 7.5px;
 }
 
 nav a:hover{
@@ -35,7 +57,8 @@ footer h3 {
 }
 
 footer a {
-    color: white;
+    color: #ffffff;
+    background-color: #4A6FA5;
     text-decoration: none;
 }
 
@@ -46,7 +69,12 @@ footer a:hover {
 }
 
 footer {
-    background-color: #4A6FA5;
+    background-color: #ffffff;
+    margin-top: 200px;
+}
+
+footer.social img {
+    padding-top: 15px;
 }
 
 #content {
@@ -67,6 +95,10 @@ footer {
     width: 100%;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .button-box {
     text-align: center;
 }
@@ -75,6 +107,10 @@ footer {
     background-color: #4A6FA5;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -84,18 +120,30 @@ footer {
  
 .msg {
     background-color: #ffffff;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #4A6FA5;
-}
+    font-family: 'Roboto', sans-serif;
+ }
 
 .msg p {
     color: #4A6FA5;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
  
 .home-title {
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 .logo {
@@ -104,10 +152,11 @@ footer {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
-.mountains {
-    text-align: center;
+.card-img {
+    border: 10px solid #ffffff;
 }
 
   
