@@ -93,6 +93,8 @@ footer.social img {
 
 #hero_img {
     width: 100%;
+    border-bottom: 3px solid #ffffff;
+
 }
 
 #logo_link {
@@ -104,13 +106,14 @@ footer.social img {
 }
 
 .book, .join {
-    background-color: #4A6FA5;
-    color: white;
+    background-color: #ffffff;
+    color: #4A6FA5;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
     margin: 50px;
     border-radius: 5px;
+     
 }
 
 .book:hover, .join:hover{
