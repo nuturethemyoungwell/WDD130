@@ -75,6 +75,7 @@
   margin-top: -50px;
   margin-left: -470px;
   z-index: 1;
+  position: static;
  
 } 
 /* Activity 3 styles */ 
