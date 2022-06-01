@@ -73,7 +73,8 @@
   height: 100px; 
   background-color: blue; 
   margin-top: -50px;
-  margin-left: -460px;
+  margin-left: -470px;
+  z-index: 1;
  
 } 
 /* Activity 3 styles */ 
