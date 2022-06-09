@@ -145,13 +145,13 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
-  grid-area: page2;
+.sm-faq {
+  grid-area: faq;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page3 {
-  grid-area: page3;
+.sm-contactus {
+  grid-area: contactus;
   background-color: #ccc;
   line-height: 3em;
 }
