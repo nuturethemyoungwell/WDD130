@@ -127,7 +127,6 @@ nav a:hover {
 .sitemap {
   display: grid;
   justify-content: center;
-
   grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas: ". . home home . ."
@@ -141,18 +140,18 @@ nav a:hover {
 
 }
 .sm-home {
-  grid-area: home;
-  background-color: #ccc;
+  grid-area: top;
+  background-color: rgb(143, 140, 140);
   line-height: 3em;
 }
 .sm-faq {
-  grid-area: faq;
-  background-color: #ccc;
+  grid-area: left;
+  background-color: rgb(114, 112, 112);
   line-height: 3em;
 }
 .sm-contactus {
-  grid-area: contactus;
-  background-color: #ccc;
+  grid-area: right;
+  background-color: rgb(155, 147, 147);
   line-height: 3em;
 }
 
