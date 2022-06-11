@@ -36,6 +36,10 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
 }
 .red2 {
   width: 120px; 
