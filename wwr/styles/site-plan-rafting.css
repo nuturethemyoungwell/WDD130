@@ -120,6 +120,9 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+.sitemap > div {
+  text-align: center;
+}
 .sitemap {
   display: grid;
   justify-content: center;
@@ -130,9 +133,7 @@ nav a:hover {
     ". left left right right ."
     "page2 page2 . . page3 page3";
 }
-.sitemap > div {
-  text-align: center;
-}
+
 .sm-home {
   grid-area: home;
   background-color: #ccc;
