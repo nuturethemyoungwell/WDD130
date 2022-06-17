@@ -251,7 +251,7 @@ footer.social img {
     width: 700px; 
     height: 270px; 
     margin-left: 10%;
-    align-items: right;
+    align-self: center;
     padding-left: 80px;
     margin-bottom: 50%;
      
@@ -259,7 +259,6 @@ footer.social img {
   } 
 .faq-grid{
     color: rgb(255, 251, 0);
-    align-items: left;
     float: left;    
     margin: 0 15px ;
 }
