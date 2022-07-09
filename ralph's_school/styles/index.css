@@ -45,365 +45,364 @@ header {
  
 }
 main section {
-    text-align: center;
+  text-align: center;
 }
 
 main section img {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-
+  display: flex;
+  justify-content: space-around;
 }
 
 nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 7.5px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 7.5px;
 }
 
 nav a:hover{
-    background-color: #4A6FA5;
-    color: white;
+  background-color: #4A6FA5;
+  color: white;
 }
 
 footer h3 {
-    color: #4A6FA5;
+  color: #4A6FA5;
 }
 
 footer a {
-    color: #ffffff;
-    background-color: #4A6FA5;
-    text-decoration: none;
+  color: #ffffff;
+  background-color: #4A6FA5;
+  text-decoration: none;
 }
 
 footer a:hover {
-    color: #4A6FA5;
-    background-color: white;
-    text-decoration: none;
+  color: #4A6FA5;
+  background-color: white;
+  text-decoration: none;
 }
 
 footer {
-    padding: 25px 50px;
-    margin-top: 200px; 
-    border-bottom: 8px solid #ffee01;
+  padding: 25px 50px;
+  margin-top: 200px; 
+  border-bottom: 8px solid #ffee01;
 }
 
 
 footer.social img {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
+  max-width: 1600px;
+  margin: 0 auto;
 }
  
 
 #hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-    justify-content: first baseline;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+  justify-content: first baseline;
 }
  
 
 #background {
-    height: 725px;
-    background-color: #4A6FA5;
-    grid-column: 1/11;
-    grid-row: 4/9;
+  height: 725px;
+  background-color: #4A6FA5;
+  grid-column: 1/11;
+  grid-row: 4/9;
 }
 
 #hero_img {
-    width: 100%;
-    border-bottom: 3px solid #1828fa;
+  width: 100%;
+  border-bottom: 3px solid #1828fa;
 
 }
 
 #logo_link {
-    padding-top: 5px;
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center
-}
+  padding-top: 5px;
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center
+ }
 
 .button-box {
-    text-align: center;
+  text-align: center;
 }
 
 .book, .join {
-    background-color: #ffe604;
-    color: #4A6FA5;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin: 50px;
-    border-radius: 5px;
+  background-color: #ffe604;
+  color: #4A6FA5;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin: 50px;
+  border-radius: 5px;
      
 }
 
 .book:hover, .join:hover{
-    color: white;
-    background-color: #4A6FA5;
+  color: white;
+  background-color: #4A6FA5;
 }
  
 .msg {
-    background-color: #ffffff;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+  background-color: #ffffff;
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
 
 }
 .alumni-1 {
-    width: 200%;
-    height: 50%;
+  width: 200%;
+  height: 50%;
 }
 .msg h2 {
-    color: #4A6FA5;
-    font-family: 'Roboto', sans-serif;
+  color: #4A6FA5;
+  font-family: 'Roboto', sans-serif;
  }
 
 .msg p {
-    color: #4A6FA5;
-    font-size: .8em;
-    padding-bottom: 15px;
+  color: #4A6FA5;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
  
 .home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .home-title{
-    text-align: center;
-    align-self: center;
-    justify-content: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
 }
 .old_students {
-    align-items: right;
-    grid-column-start: 3/3;
-    justify-content: right;
+  align-items: right;
+  grid-column-start: 3/3;
+  justify-content: right;
 }
 
 .quote {
-    align-items: left;
-    grid-column: 1/2;
-    justify-content: left;
-    float: left;
+  align-items: left;
+  grid-column: 1/2;
+  justify-content: left;
+  float: left;
 }
 .logo {
-    width: 80px;
+  width: 80px;
+  margin-left: 100%;
 }
 
 #joy-content {
-    max-width: 1600px;
-    margin: 0 auto;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .faq-texts {
-    color: #d9c2a3;
-    width: 700px; 
-    height: 270px; 
-    margin-left: 10%;
-    align-self: center;
-    padding-left: 80px;
-    margin-bottom: 50%;
+  color: #d9c2a3;
+  width: 700px; 
+  height: 270px; 
+  margin-left: 10%;
+  align-self: center;
+  padding-left: 80px;
+  margin-bottom: 50%;
      
   
   } 
 .faq-grid{
-    color: rgb(255, 251, 0);
-    float: left;    
-    margin: 0 15px ;
+  color: rgb(255, 251, 0);
+  float: left;    
+  margin: 0 15px ;
 }
 
 .subpage-heading {
-    color: #ffe604;
-    text-align: center;
-    font-size: 44px;
-    font-family: 'Tapestry', cursive; 
-    margin-top: 5%;
-    margin-bottom: 5%;
+  color: #ffe604;
+  text-align: center;
+  font-size: 44px;
+  font-family: 'Tapestry', cursive; 
+  margin-top: 5%;
+  margin-bottom: 5%;
 
 }
 .details {
-    text-align: justify;
+  text-align: justify;
 }
 
 .details-1 {
-    color: rgb(65, 62, 63);
+  color: rgb(65, 62, 63);
 }
 
 .details-2 {
-    color: aquamarine;
+  color: aquamarine;
 }
 
 
 .upper-footer {
-    width: 100%; 
-    height: 100px; 
-    background-color: red; 
-    grid-column: 1/2;
+  width: 100%; 
+  height: 100px; 
+  background-color: red; 
+  grid-column: 1/2;
 }
 .lower-footer {
-    width: 100%; 
-    background-color: blue; 
-    margin-bottom: -100%;
+  width: 100%; 
+  background-color: blue; 
+  margin-bottom: -100%;
 }
 
 .footer-links {
-  float: right;
-  display: inline;
+ float: right;
+ display: inline;
 }
     
 .social-links {
-    margin-left: 82.6%;
-    display: inline;
+  margin-left: 82.6%;
+  display: inline;
 }
 .copyright {
-    display: flex;
+  display: flex;
 }
 
 .page-break {
 padding: 3rem;
 }
 .alumni-2 {
-    width: 45%;
-    height: 90%;
-    border-radius: 3%;
-    border-top-left-radius: 1%;
+  width: 45%;    height: 90%;
+  border-radius: 3%;
+  border-top-left-radius: 1%;
     
     
 }
 .alumni-3 {
-    width: 45%;
-    height: 90%;
-    float: right;
-    margin-left: 3px;
-    border-radius: 3%;
-    opacity: 6;
-    transform: scale(1.1);
+  width: 45%;
+  height: 90%;
+  float: right;
+  margin-left: 3px;
+  border-radius: 3%;
+  opacity: 6;
+  transform: scale(1.1);
 }
 .collage {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    width: 32px;
-    height: 20px;
-    margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  width: 32px;
+  height: 20px;
+  margin-top: 20px;
 }
 .collage-1 {
-    width: 32%;
-    height: 20%;
-    grid-column-start: 1;
+  width: 32%;
+  height: 20%;
+  grid-column-start: 1;
 }
 .collage-2 {
-    width: 32%;
-    height: 20%;
-    grid-column-start: 2;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+  width: 32%;
+  height: 20%;
+  grid-column-start: 2;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .collage-3 {
-    width: 32%;
-    height: 80%;
-    grid-column-start: 3;
+  width: 32%;
+  height: 80%;
+  grid-column-start: 3;
 }
 .header-text {
-    color: #ffa600;
-    text-align: center;
-    font-size: 75px;
-    font-family: 'Tapestry', cursive;
-    margin-top: 3.2%;
-    position: absolute;
-    align-items: center;
-    animation: 10s ease-out;
+  color: #ffa600;
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Tapestry', cursive;
+  margin-top: 3.2%;
+  position: absolute;
+  align-items: center;
+  animation: 10s ease-out;
         
 }
 
 .alumni-2-text {
-    position: absolute;
+  position: absolute;
 }
 .alumni-3-text {
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-    float: right;
-    margin-left: 40%;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  float: right;
+  margin-left: 40%;
 }
 .actions {
-    justify-content: center;
-    align-items: center;
-    color: black;
-    text-align: left;
-    position: -ms-page;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: left;
+  position: -ms-page;
 }
 .collage-4 {
-    width: 29%;
-    height: 10%;
-    grid-column-start: 1/1;
+  width: 29%;
+  height: 10%;
+  grid-column-start: 1/1;
 }
 .collage-5 {
-    width: 32%;
-    height: 10%;
+  width: 32%;
+  height: 10%;
 }
 .collage-6 {
-    width: 32%;
-    height: 20%;
-    grid-column-start: 1/3;
+  width: 32%;
+  height: 20%;
+  grid-column-start: 1/3;
 }
 
 .collage-7 {
-    width: 32%;
-    height: 20%;
-    grid-column-start: 1/3;
+  width: 32%;
+  height: 20%;
+  grid-column-start: 1/3;
 }
 .collage-8 {
-    width: 32%;
-    height: 20%;
-    grid-column-start: 2/3;
+  width: 32%;
+  height: 20%;
+  grid-column-start: 2/3;
 }
 .collage-9 {
-    width: 32%;
-    height: 20%;
-    grid-column-start: 3/3;
+  width: 32%;
+  height: 20%;
+  grid-column-start: 3/3;
 }
 .collage-10 {
-    width: 32%;
-    height: 20%;
-    grid-column-start: 1/4;
+  width: 32%;
+  height: 20%;
+  grid-column-start: 1/4;
 }
 form {
     /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
+  margin: 0 auto;
+  width: 400px;
     /* Form outline */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
   }
   
   ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   }
   
   form li + li {
-    margin-top: 1em;
+  margin-top: 1em;
   }
   
   label {
     /* Uniform size & alignment */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
+  display: inline-block;
+  width: 90px;
+  text-align: right;
   }
   
   input,
@@ -447,10 +446,10 @@ form {
 
   .submit {
     margin-top: 40px;
-    margin-left: 95px;
+    margin-left: 9px;
   }
   .reset {
-    margin-left: 84px;
+    margin-left: 13px;
     width: 1%
   }
   .user-request {
@@ -472,7 +471,7 @@ form {
     margin-top: 3em;
 }
 
-######################################
+
 .donation-container {
 	height: 1000px;
 	font-family: 'Montserrat', sans-serif;
@@ -722,9 +721,6 @@ form {
 	transition: all 0.15s ease-out;
 }
 
-.checkbox:active, .checkbox:checked:active {
-	
-}
 
 .checkbox:checked {
 	background-color: #C1D82F;
@@ -762,44 +758,195 @@ form {
 }
 
 
+.sidenav {
+    height: auto;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(104, 74, 60);
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-left: 1100px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+  }
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  }
+.anthem {
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.anthem-chorus {
+  text-align: center;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  background-color: #770505;
+  text-decoration: solid;
+  border-bottom: 20px solid #ffee00;
+}
+.anthem-heading {
+  text-align: center;
+  font-style: italic;
+  font-size: 44px;
+  font-family: 'Tapestry', 'cursive'; 
+  color: #ffffff;
+  background-color: #8a0404;
+  text-decoration: wavy;
+  border-bottom: 20px solid #ffee00;
+}
+.search-bar {
+  margin-left: 800px;
+}
+
+/*slides css added*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+ 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
-        display: block;
-        height: auto;
+      display: block;
+      height: auto;
     }
     nav, footer {
-        flex-direction: column;
+      flex-direction: column;
     }
     nav a {
-        display: block;
-        padding: 15px;
+      display: block;
+      padding: 15px;
     }
     #hero {
-        margin-top: 0;
+      margin-top: 0;
     }
     #hero-msg {
-        margin-top: 0;
+      margin-top: 0;
     }
     #hero-msg h4 {
-        display: none;
+      display: none;
     }
     .home-title {
-        font-size: 25px;
-        color: #6f7364;
+      font-size: 25px;
+      color: #6f7364;
     }
     .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
+      margin: 50px auto;
+      width: 60%;
     }
     #background {
-        display: none;
+      display: none;
     }
     .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
+      width: 80%;
+      display: block;
+      margin: 0 auto;
     }
     footer {
-        margin-top: 25px;
+      margin-top: 25px;
     }
 }
