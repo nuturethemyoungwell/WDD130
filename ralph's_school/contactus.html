@@ -10,16 +10,16 @@
 <body>
     <div id="content">
         <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logo.jpg" alt="School Logo">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="activities.html"> Activities</a>
-                <a href="contactus.html">Contact Us</a>
-                <a href="donation.html"> Donate To Us</a>
-            </nav>
-            <p>Wanna Check in with Us?</p>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/logo.jpg" alt="School Logo">
+                </a>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="activities.html"> Activities</a>
+                    <a href="contactus.html">Contact Us</a>
+                    <a href="donation.html"> Donate To Us</a>
+                </nav>
+            </div>
         </header>
         <nav>  
             <input type="text" placeholder="Search..">
@@ -27,7 +27,17 @@
         <div class="subpage-heading">Get In Touch With US Now</div>
         </div>
         
-        <main <div class="user-request"</div>
+        <main 
+        <div class="grid-block">
+        <div class="our_details">
+            <p>Our Contact Details Below:</p>
+            <p>Royal Seed Home School</p>
+            <p>Location: Papaase No.1 Kwaobondzie-Top, Off Kasoa Bawjiase Road - C/R, Ghana-West Africa</p>
+            <p>Tel: +233 592091150</p>
+            <p>Email: raphaelgraceman@gmail.com</p>
+            <p>WhatsApp: +233 546229003</p>
+        </div>
+        <div class="user-request">
             <p> Please Enter the the following information</p>
         <div id="feedback"></div>
             <form action="/my-handling-form-page" method="post">
@@ -55,6 +65,8 @@
                  </li>
                 </ul>
             </form>
+        </div>
+            
             <script>
                 // get the feedback div element so we can do something with it.
                 const feedbackElement = document.getElementById('feedback');
