@@ -815,7 +815,7 @@ form {
     background-color: rgb(104, 74, 60);
     overflow-x: hidden;
     padding-top: 20px;
-    margin-left: 1100px;
+    justify-items: right;
   }
   
   .sidenav a {
