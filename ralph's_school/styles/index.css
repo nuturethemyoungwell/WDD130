@@ -70,12 +70,11 @@ nav a:hover{
 }
 
 footer h3 {
-  color: #4A6FA5;
+  color: #000000;
 }
 
-footer a {
-  color: #ffffff;
-  background-color: #4A6FA5;
+#footer a {
+  background-color: #80b1fa;
   text-decoration: none;
 }
 
@@ -89,6 +88,8 @@ footer {
   padding: 25px 50px;
   margin-top: 200px; 
   border-bottom: 8px solid #ffee01;
+  border-top: 8px solid #ffee01;
+
 }
 
 
@@ -107,7 +108,7 @@ footer.social img {
   grid-column: 2/3;
   grid-row: 1/2;
   margin-top: 100px;
-  justify-content: first baseline;
+  align-content: baseline;
 }
  
 
@@ -185,13 +186,13 @@ footer.social img {
   justify-content: center;
 }
 .old_students {
-  align-items: right;
-  grid-column-start: 3/3;
+  margin-left: auto;
+  grid-column-start: 3;
   justify-content: right;
 }
 
 .quote {
-  align-items: left;
+  justify-items: left;
   grid-column: 1/2;
   justify-content: left;
   float: left;
@@ -245,61 +246,277 @@ footer.social img {
 }
 
 
-.upper-footer {
-  width: 100%; 
-  height: 100px; 
-  background-color: red; 
-  grid-column: 1/2;
-}
-.lower-footer {
-  width: 100%; 
+.lower_footer {
+  width: 170px; 
+  height: 5px;
   background-color: blue; 
-  margin-bottom: -100%;
+}
+ 
+
+.upper_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #3cf7fd;
+  color: #ffe602;
+  width: 100%;
+}
+.footer_logo {
+  grid-column: 1;
+  background-color: #ffe602;
+}
+.social_links {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  margin-left: auto;
 }
 
-.footer-links {
- float: right;
- display: inline;
-}
-    
-.social-links {
-  margin-left: 82.6%;
-  display: inline;
-}
+.footer_logo1 {
+    height: 60px;
+    width: 68px;
+} 
 .copyright {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #ffffff;
+  color: #810606;
+  width: 100%;
 }
+.lower_footer_column1 {
+  grid-column-start: 1;
+  background-color: #3cf7fd;
+}
+.footer_links1 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer_links1 h3 {
+  grid-column-start: 1;
+}
+.footer_links1 h4 {
+  grid-column-start: 2;
+  grid-row: 1;
+  border-left: 5px solid #ff0000;
+  border-right: 5px solid #ff0000
+}
+.footer_links1 h5 {
+  grid-column-start: 3;
+  grid-row: 1;
+  margin-left: auto;
 
-.page-break {
+}
+.home-grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+quote_1 {
+  grid-column-start: 1;
+}
+.alumni-1 {
+  grid-column-start: 2;
+  width: 80%;
+  height: 60%;
+}
+.page-break_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 padding: 3rem;
 }
 .alumni-2 {
+  grid-column-start: 1;
   width: 45%;    height: 90%;
   border-radius: 3%;
-  border-top-left-radius: 1%;
-    
-    
+  border-top-left-radius: 1%;  
 }
 .alumni-3 {
+  grid-column-start: 2;
   width: 45%;
   height: 90%;
   float: right;
   margin-left: 3px;
   border-radius: 3%;
-  opacity: 6;
+  opacity: 5;
   transform: scale(1.1);
 }
+.alumni-2-text {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.alumni-3-text {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.parade {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.parade_text {
+  position: absolute;
+  top: 15.25%;
+  left: 43%;
+  font-size: 44px;
+  font-family: 'Tapestry', cursive;
+  font-style: italic;
+  box-sizing: border-box;
+  padding: 1em;
+  border: 1px solid #ffffff85;
+  border-radius: 1em; 
+  transform: translate(-50%, -50%)  
+}
+.parade_bottom_text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  font-size: 44px;
+  font-family: 'Tapestry', cursive;
+  font-style: italic;
+  box-sizing: border-box;
+  padding: 1em;
+  border: 0.1px solid #4A6FA5;
+  border-radius: 1em; 
+  transform: translate(-50%, -50%)
+}
+.fb_join {
+  position: absolute;
+  padding: 1em;
+  top: 50%;
+  margin-left: 35%;
+}
+.collage_paragraph {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 44px;
+  font-family: 'Tapestry', cursive;
+  font-style: italic;
+}
+.collage_paragraph p:nth-of-type(2){ 
+  grid-column-start: 2;
+  font-size: 44px;
+  font-family: 'Tapestry', cursive;
+  box-sizing: border-box;
+  padding: 1em;
+  border: 0.1px solid #ffffff85;
+  border-radius: 1em;
+  margin-left: 6.25%;
+  color: #ffffff;
+
+}
+.collage_paragraph_type{
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 44px;
+  font-family: 'Tapestry', cursive;
+  box-sizing: border-box;
+  padding: 1em;
+  border: 0.1px solid #aa606085;
+  border-radius: 1em; 
+  color: #000000;
+  margin-top: 2%;
+  text-align: center;
+  margin-left: 80px;
+}
+.collage_paragraph p:nth-of-type(1) {
+  grid-column-start: 1;
+  text-align: center;
+  font-size: 44px;
+  font-family: 'Tapestry', cursive;
+  box-sizing: border-box;
+  padding: 1em;
+  border: 0.1px solid #ffffff85;
+  border-radius: 1em;
+  margin-left: 6.25%;
+  color: #ffffff;
+}
+.join {
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  background-color: #ffe604;
+  color: #4A6FA5;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 5px
+  
+}
+.join_activity {
+  font-size: 44px;
+  font-family: 'Tapestry', cursive;
+  box-sizing: border-box;
+  padding: 1em;
+  border: 0.1px solid #00000085;
+  border-radius: 1em; 
+  color: #000000;
+  width: 100%;
+  margin: auto;
+  background-color: #ffffff;
+  border-top: 3px solid yellow; 
+  border-left: 3px solid yellow;
+  border-right: 3px solid yellow;
+  border-bottom: 3px solid yellow;
+}
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
 .activity_welcome {
   color: #ffe604;
   text-align: center;
   font-size: 44px;
   font-family: 'Tapestry', cursive; 
-  margin-top: 5%; 
+  margin-top: -1%; 
   font-style: italic;
   box-sizing: border-box;
-  border-right: 20px solid #ffee00;
-  padding: 1em;
-  border: 3px solid #fc00da;
+  border-top: 20px solid #ffee00;
+  padding: 0.5em;
   border-radius: 1em;  
 }
 .collage_gallery {
@@ -314,10 +531,8 @@ padding: 3rem;
   margin-bottom: 30px;
   border-bottom: 20px solid #ffee00;
   border-top: 20px solid #ffee00;
-  
-
-
 }
+
 .collage-2 {
   width: 530px;
   height: 400px;
@@ -348,28 +563,18 @@ padding: 3rem;
   animation: 10s ease-out;
         
 }
-
-.alumni-2-text {
-  position: absolute;
-}
-.alumni-3-text {
-  position: absolute;
-  text-align: center;
-  justify-content: center;
-  float: right;
-  margin-left: 40%;
-}
 .actions {
   justify-content: center;
   align-items: center;
   color: black;
   text-align: left;
-  position: -ms-page;
+  position: absolute;
 }
 .collage-4 {
   width: 530px;
   height: 400px;
-  grid-column-start: 1/1;
+  grid-column-start: 1;
+  grid-row-start: 2;
   margin-bottom: 30px;
   border-bottom: 20px solid #ffee00;
   border-top: 20px solid #ffffff;
@@ -379,6 +584,8 @@ padding: 3rem;
   width: 530px;
   height: 400px;
   margin-left: 5px;
+  grid-column-start: 2;
+  grid-row-start: 2;
   margin-right: 5px;
   margin-bottom: 30px;
   border-bottom: 20px solid #ffee00;
@@ -388,7 +595,8 @@ padding: 3rem;
 .collage-6 {
   width: 530px;
   height: 400px;
-  grid-column-start: 1/3;
+  grid-column-start: 3;
+  grid-row-start: 2;
   margin-bottom: 30px;
   border-bottom: 20px solid #ffee00;
   border-top: 20px solid #ffffff;
@@ -398,14 +606,16 @@ padding: 3rem;
 .collage-7 {
   width: 530px;
   height: 400px;
-  grid-column-start: 1/3;
+  grid-column-start: 1;
+  grid-row-start: 3;
   margin-bottom: 30px;
 
 }
 .collage-8 {
   width: 530px;
   height: 400px;
-  grid-column-start: 2/3;
+  grid-column-start: 2;
+  grid-row-start: 3;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 30px;
@@ -414,16 +624,79 @@ padding: 3rem;
 .collage-9 {
   width: 530px;
   height: 400px;
-  grid-column-start: 3/3;
+  grid-column-start: 3;
+  grid-row-start: 3;
   margin-bottom: 30px;
 
 }
 .collage-10 {
   width: 530px;
   height: 400px;
-  grid-column-start: 1/4;
+  grid-column-start: 1;
+  grid-row-start: 4;
   margin-bottom: 30px;
 
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 form {
     /* Center the form on the page */
@@ -768,7 +1041,44 @@ form {
 	transition: all 0.15s ease-out;
 }
 
+.head_edit_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: blue;
+  box-sizing: border-box;
+  border-top: 20px solid #ffee00;
+  padding: 0.5em;
+  border-radius: 1em; 
 
+}.fb_join_1 {
+  position: absolute;
+  padding: 1em;
+  top: 100%;
+  margin-left: 35%;
+}
+#myImg_1 {
+  grid-column-start: 1;
+  width: 661px;
+  height: 200px;
+  border-bottom: 5px solid  rgb(255, 255, 255);
+  padding: 1em;
+  border-radius: 1em; 
+}
+#myImg_2 {grid-column-start: 2;
+  width: 280px;
+  height: 200px;
+  border-bottom: 5px solid  rgb(255, 255, 255);
+  padding: 1em;
+  border-radius: 1em; 
+}
+#myImg_3 {
+  grid-column-start: 3;
+  width: 661px;
+  height: 200px;
+  border-bottom: 5px solid  rgb(252, 252, 252);
+  padding: 1em;
+  border-radius: 1em;  
+}
 .checkbox:checked {
 	background-color: #C1D82F;
 	border: 1px solid #C1D82F;
@@ -791,7 +1101,6 @@ form {
 	left: 15px;
 	right: 15px;
 	font-size: 16px;
-	
 	-webkit-transition: all 0.15s ease-out;
 	-moz-transition: all 0.15s ease-out;
 	-o-transition: all 0.15s ease-out;
@@ -861,6 +1170,7 @@ form {
 }
 .search-bar {
   margin-left: 800px;
+  width: 400px;
 }
 
 /*slides css added*/
@@ -869,7 +1179,7 @@ form {
   }
   
   /* Position the image container (needed to position the left and right arrows) */
-  .container {
+  .container1 {
     position: relative;
   }
   
@@ -927,6 +1237,7 @@ form {
     background-color: #222;
     padding: 2px 16px;
     color: white;
+    position: relative;
   }
   
   .row:after {
@@ -956,7 +1267,7 @@ form {
   width:30%;
  }
  .our_details {
-  grid-column-start: 1 span 3;
+  grid-column-start: 1;
   margin-left: 60px;
   margin-right: 600px;
   text-align: center;
@@ -976,6 +1287,8 @@ form {
 }
 .our_details p:nth-of-type(4){
   color:#ffee00;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
 }
  .user-request {
   grid-column: 3;
@@ -987,8 +1300,14 @@ form {
   font-family: 'Tapestry', 'cursive'; 
 }
 
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+}
+}
 
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
@@ -1033,4 +1352,33 @@ form {
     footer {
       margin-top: 25px;
     }
+}
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
 }
